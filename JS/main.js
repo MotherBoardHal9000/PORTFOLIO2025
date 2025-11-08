@@ -1,3 +1,42 @@
+//마우스 커서 이펙트
+const trails = document.querySelectorAll(".trail");
+const smoothPointer = {
+  x: window.innerWidth / 2,
+  y: window.innerHeight / 2,
+};
+const totalPointsArray = [40, 35, 30, 25, 20, 15, 10];
+
+window.addEventListener("mousemove", (event) => {
+  gsap.to(smoothPointer, {
+    x: event.clientX,
+    y: event.clientY,
+    duration: 0.5,
+    ease: "power2.out",
+  });
+});
+
+function updatePath() {
+  trails.forEach((path, index) => {
+    let points = path.points || [];
+    points.unshift({ ...smoothPointer });
+    while (points.length > totalPointsArray[index]) {
+      points.pop();
+    }
+    path.points = points;
+
+    if (points.length > 1) {
+      let d = `M ${points[0].x} ${points[0].y}`;
+      for (let i = 1; i < points.length; i++) {
+        d += ` L ${points[i].x} ${points[i].y}`;
+      }
+      path.setAttribute("d", d);
+    }
+  });
+
+  requestAnimationFrame(updatePath);
+}
+
+updatePath(requestAnimationFrame);
 //
 //시작 메인 타이포그래피 애니메이션
 
@@ -25,12 +64,13 @@ tl.from('.utill > div',{
 //
   let x = 0;
       let targetX = 0;
-      const speed = 0.1;
+      const speed = 0.010;
 
       const section01 = document.querySelectorAll(".section01 img");
       const img00 = section01[0];
       const img01 = section01[1];
       const img02 = section01[2];
+      const img03 = section01[3];
 
       window.addEventListener("mousemove", (event) => {
         x = event.pageX - window.innerWidth / 2;
@@ -39,9 +79,10 @@ tl.from('.utill > div',{
       const loop = () => {
         targetX += (x - targetX) * speed;
 
-        img00.style.transform = `translateX(${targetX / 15}px)`;
-        img01.style.transform = `translateX(${targetX / 8}px)`;
-        img02.style.transform = `translateX(${targetX / 20}px)`;
+        img00.style.transform = `translateX(${targetX / 10}px)`;
+        img01.style.transform = `translateX(${targetX / 18}px)`;
+        img02.style.transform = `translateX(${targetX / 13}px)`;
+        img03.style.transform = `translateX(${targetX / 17}px)`;
         window.requestAnimationFrame(loop);
       };
       loop();

@@ -48,6 +48,7 @@ body {
    letter-spacing: -2.5%;
    color: var(--black);
    -ms-overflow-style: none;
+   scroll-behavior: smooth;
 }
 
 canvas{
@@ -55,7 +56,23 @@ canvas{
        width: 100vw;
     height: 1080px;
     position: relative;
+    transition: all 1s;
 }
+
+svg {
+  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9999;
+  opacity: 90%;
+  pointer-events: none;
+}
+
 
 
 /*PortfolioMain*/
@@ -107,6 +124,7 @@ canvas{
   z-index: 11;
   right: 274px;
   top: 230px;
+  transition: all 1s;
  }
 
   .img01{
@@ -116,13 +134,27 @@ canvas{
   z-index: 10;
   right: 274px;
   top: 230px;
+    transition: all 1s;
  }
 
   .img02{
   width: 744px;
-  aspect-ratio: 1/1;
+  height: 265px;
   position: absolute;
   z-index: 10;
   right: -15px;
   top: 0px;
+    transition: all 3s;
+ }
+
+ 
+  .img03{
+  width: 466px;
+  aspect-ratio: 304px;
+  position: absolute;
+  z-index: 10;
+  right: 715px;
+  bottom: 0px;
+
+    transition: all 3s;
  }

@@ -12,6 +12,7 @@ class Canvas {
      this.canvas.style.position = "absolute";
     this.canvas.style.width = 100+"%";
     this.canvas.style.backgroundColor = '#6A5BFF';
+    this.canvas.style.zIndex = -9999;
     this.ctx = this.canvas.getContext("2d");
     document.body.appendChild(this.canvas);
 
