@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+html {
+   font-size: 62.5%;
+   scroll-behavior: smooth;
+}
+
+* { 
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   letter-spacing: -2.5%;
+}
+
+ol, ul { 
+   list-style: none;
+} 
+
+a { 
+   text-decoration: none;
+   color: #333333;
+}
+
+select, input, textarea, fieldset { 
+   border: 0;
+}
+
+caption, legend { 
+   display: none;
+}
+
+img { 
+   vertical-align: top;
+}
+
+table { 
+   border-collapse: collapse;
+   width: 100%;
+}
+
+i, em, address {
+   font-style: normal;
+}
+
+b, strong, h1, h2, h3, h4, h5, h6 {
+   font-weight: normal;
+}
+
+button, input {
+   border: none;
+   background: transparent;
+}
+
+ :root { /*Size*/
+  --size-max-width: 1920px;
+}
+
+
+::-webkit-scrollbar {
+   display: none;
+}
