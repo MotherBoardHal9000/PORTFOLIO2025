@@ -52,11 +52,11 @@ body {
 }
 
 canvas{
-    z-index: -9999;
-       width: 100vw;
+    width: 100vw;
     height: 1080px;
-    position: relative;
     transition: all 1s;
+    position: absolute;
+    top: 0px;
 }
 
 svg {
@@ -75,6 +75,7 @@ svg {
 
 
 
+
 /*PortfolioMain*/
 
 .section01{
@@ -82,8 +83,6 @@ svg {
     height: 1080px;
     z-index: 10;
     position: absolute;
-    border-left: 1px solid red;
-    border-right: 1px solid red;
     left: 50%;
     transform: translateX(-50%);
     padding-left: 50px;
@@ -158,3 +157,45 @@ svg {
 
     transition: all 3s;
  }
+
+   .img04{
+  width: 328px;
+  aspect-ratio: 300px;
+  position: absolute;
+  z-index: 10;
+  right: 175px;
+  bottom: 0px;
+  transition: all 3s;
+ }
+    .img05{
+  width: 312px;
+  aspect-ratio: 312px;
+  position: absolute;
+  z-index: 10;
+  left: 175px;
+  bottom: 100px;
+  transition: all 3s;
+ }
+
+ /*header*/
+ .header{
+  width: 100%;
+  height: 84px;
+  border-bottom: 2px solid #333333;
+  background-color: #ffffff;
+  position: relative;
+  top: 1080px;
+ }
+
+ .headerContents{
+  width: 1920px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding:26px;
+ }
+
+  .headerContents h3{
+    font-weight: 700;
+
+  }

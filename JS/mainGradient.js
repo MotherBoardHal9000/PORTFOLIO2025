@@ -9,10 +9,9 @@ class Canvas {
   constructor() {
     this.canvas = document.createElement("canvas"); //this는 새로 생성되는 object를 뜻함 즉 this.canvas는 뭐냐 새로생성되는 object의 canvas라는 속성에는 여기적힌 canvas란 값을 대입해 주세요
      //this 는 새로 생성되는 object를 뜻한다. this.age = 15 이렇게 새로 생성되는 object에 값 부여 가능
-     this.canvas.style.position = "absolute";
     this.canvas.style.width = 100+"%";
+    this.canvas.style.height = 1080 + "px";
     this.canvas.style.backgroundColor = '#6A5BFF';
-    this.canvas.style.zIndex = -9999;
     this.ctx = this.canvas.getContext("2d");
     document.body.appendChild(this.canvas);
 
