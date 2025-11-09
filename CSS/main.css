@@ -60,6 +60,23 @@ canvas{
     top: 0px;
 }
 
+
+@keyframes UpandDown {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+
+
 svg {
   position: absolute;
   position: fixed;
@@ -261,8 +278,29 @@ svg {
    }
 
 
+#yellowObject{
+  position: absolute;
+  left: 290px;
+  top: 370px;
+  animation: UpandDown 4s infinite;
+} 
 
 
+.paranoise {
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  top: 100px;
+  right: 38px;
+}
+
+.blueSponge{
+  position: absolute;
+  top: 150px;
+  left: 480px;
+  z-index: 20;
+  animation: UpandDown 3s infinite;
+}
 
 
   .workPage{
