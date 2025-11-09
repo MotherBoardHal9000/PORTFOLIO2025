@@ -229,4 +229,13 @@ svg {
     border-left: 1px solid red;
     border-right:1px solid red;
     margin: 0 auto;
+    margin-top: 1080px;
+    position: relative;
+   }
+
+  .introPage{
+    width:100%;
+    height: 1047px;
+    border-bottom: 3px solid #333333;
+    
    }
