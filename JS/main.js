@@ -73,6 +73,7 @@ tl.from('.utill > div',{
       const img03 = section01[3];
       const img04 = section01[4];
       const img05 = section01[5];
+      const img06 = section01[6];
 
       window.addEventListener("mousemove", (event) => {
         x = event.pageX - window.innerWidth / 2;
@@ -85,8 +86,9 @@ tl.from('.utill > div',{
         img01.style.transform = `translateX(${targetX / 18}px)`;
         img02.style.transform = `translateX(${targetX / 13}px)`;
         img03.style.transform = `translateX(${targetX / 17}px)`;
-         img04.style.transform = `translateX(${targetX / 12}px)`;
-          img05.style.transform = `translateX(${targetX / 10}px)`;
+        img04.style.transform = `translateX(${targetX / 12}px)`;
+        img05.style.transform = `translateX(${targetX / 10}px)`;
+        img06.style.transform = `translateX(${targetX / 14}px)`;
         window.requestAnimationFrame(loop);
       };
       loop();

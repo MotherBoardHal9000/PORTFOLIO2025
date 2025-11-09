@@ -49,6 +49,7 @@ body {
    color: var(--black);
    -ms-overflow-style: none;
    scroll-behavior: smooth;
+   background-color: #f2f2f2;
 }
 
 canvas{
@@ -177,6 +178,16 @@ svg {
   transition: all 3s;
  }
 
+     .img06{
+  width: 314px;
+  aspect-ratio: 314px;
+  position: absolute;
+  z-index: 5;
+  left: 345px;
+  bottom: 50px;
+  transition: all 3s;
+ }
+
  /*header*/
  .header{
   width: 100%;
@@ -199,3 +210,23 @@ svg {
     font-weight: 700;
 
   }
+
+   .headerContents img{
+    width: 214px;
+    height: 104px;
+    position: absolute;
+    top: -75px;
+    left: 30%;
+    transform: translateX(-30%);
+    z-index: 10;
+   }
+
+
+   /*바디*/
+   .anotherBody{
+    width: 1920px;
+    height: 15114px;
+    border-left: 1px solid red;
+    border-right:1px solid red;
+    margin: 0 auto;
+   }
