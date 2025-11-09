@@ -239,3 +239,35 @@ svg {
     border-bottom: 3px solid #333333;
     
    }
+  .introducePage{
+    width:100%;
+    height: 1047px;
+    border-bottom: 3px solid #333333;
+    
+   }
+
+
+   .introh2Box{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 42px;
+    top: 110px;
+   }
+
+   .introh2{
+     font-size: 9rem;
+     font-weight: 700;
+   }
+
+
+
+
+
+
+  .workPage{
+    width:100%;
+    height: 5068px;
+    border-bottom: 3px solid #333333;
+    
+   }
