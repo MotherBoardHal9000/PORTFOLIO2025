@@ -417,10 +417,9 @@ svg {
     
    }
 
-   .workPage02{
-    width:1536;
+.workPage02{
+    width:1877px;
     height: fit-content;
-    border: 1px solid red;
     margin: 0 auto;
     margin-top: 78px;
     position: relative;
@@ -440,3 +439,26 @@ svg {
     position: absolute;
     left: -10px;
   }
+
+  #funSMS3Dobject{
+    position: absolute;
+    right: 600px;
+    bottom: -90px;
+  }
+.workPage02explain{
+  width: 472px;
+  height: 900px;
+  float: right;
+  border: 0.5px solid red;
+}
+
+
+
+.workPage03{
+    width:1877px;
+    height: 736px;
+    border: 1px solid red;
+    margin: 0 auto;
+    margin-top: 78px;
+    position: relative;
+   }
