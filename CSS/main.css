@@ -315,7 +315,7 @@ left:-250px
   left: 360px;
   bottom:94px;
   z-index: 15;
-  animation: UpandDown 3s infinite;
+  animation: UpandDown 4s infinite;
 }
 
 
@@ -347,4 +347,51 @@ left:-250px
     padding-left: 40px;
    
 
+   }
+
+   .profileBox{
+    width: 911px;
+    height: 570px;
+    background-color: #ffffff;
+    position: relative;
+    left: 48px;
+    bottom: -94px;
+    box-shadow: 0 20px 0 0 #7358EF;
+   }
+
+   .profileBox img{
+    position: absolute;
+    bottom: -68px;
+    left: 50%;
+    transform: translateX(-50%);
+   }
+
+
+   .introduceParagraph{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: -480px;
+    left: 968px;
+   }
+
+
+      .introduceParagraph + .introduceParagraph{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: -580px;
+    left: 1328px;
+      }
+
+   .skillBox{
+    width: fit-content;
+    height: 55px;
+    position: relative;
+    right: -990px;
+    top: -320px; ;
+   }
+
+   .skillBox img{
+    margin: 8px;
    }
