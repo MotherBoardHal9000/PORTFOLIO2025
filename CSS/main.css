@@ -483,10 +483,44 @@ svg {
 .workPage03{
     width:1877px;
     height: 736px;
-    border: 1px solid red;
     margin: 0 auto;
     margin-top: 78px;
     position: relative;
    }
+.workPage03explain{
+  width: 472px;
+  height: 900px;
+  float: left;
+}
+
+.workPage03explain h3{
+  font-size: 5rem;
+  font-weight: 400;
+  text-align: left;
+  line-height: 72px;
+  padding-right: 20px;
+  padding-top: 0px;
+}
+
+.workPage03explain p{
+ text-align: justify;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.workPage03explain button{
+  width: 120px;
+  padding: 20px;
+  background-color: #333333;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+
+
+
+
 
 .workPage03 img{ float: right; margin-right: 30px;}
