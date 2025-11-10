@@ -304,8 +304,8 @@ svg {
 
 .whiteSponge{
   position: relative;
-left:-250px;
- animation: UpandDown 5s infinite;
+  left:-250px;
+  animation: UpandDown 5s infinite;
 }
 
 
@@ -433,6 +433,10 @@ left:-250px;
     z-index: 10;
   }
   #funSMSdesktop{
-   position: absolute;
-    margin-left: -40px;
+    margin-left: 398px;
+    width: 744px;
+  }
+  #funSMSmobile{
+    position: absolute;
+    left: -10px;
   }
