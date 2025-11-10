@@ -135,12 +135,12 @@ svg {
 
 
  .img00{
-  width: 744px;
+  width: 724px;
   aspect-ratio: 1/1;
   position: absolute;
   z-index: 11;
-  right: 274px;
-  top: 230px;
+  right: 294px;
+  top: 180px;
   transition: all 1s;
  }
 
