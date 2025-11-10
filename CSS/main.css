@@ -389,6 +389,7 @@ left:-250px
     height: 5068px;
     border-bottom: 3px solid #333333 ;
     padding-top: 80px;
+    padding-left: 40px ;
    }
 
 
@@ -405,6 +406,8 @@ left:-250px
    }
 
 
-   .workpage #nanoIT{
+ #nanoITMobile{
+    float: right;
+    margin-right: 32px;
     
    }
