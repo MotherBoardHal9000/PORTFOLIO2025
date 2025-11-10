@@ -449,7 +449,33 @@ svg {
   width: 472px;
   height: 900px;
   float: right;
-  border: 0.5px solid red;
+}
+
+
+.workPage02explain h3{
+  font-size: 5rem;
+  font-weight: 400;
+  text-align: right;
+  line-height: 72px;
+  padding-right: 20px;
+  padding-top: 0px;
+}
+
+
+.workPage02explain p{
+ text-align: justify;
+  padding: 28px;
+  margin-left: 20px;
+}
+
+.workPage02explain button{
+  width: 120px;
+  padding: 20px;
+  background-color: #333333;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0px;
+  right: 30px;
 }
 
 
@@ -462,3 +488,5 @@ svg {
     margin-top: 78px;
     position: relative;
    }
+
+.workPage03 img{ float: right; margin-right: 30px;}
