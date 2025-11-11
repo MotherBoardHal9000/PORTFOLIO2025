@@ -535,3 +535,15 @@ svg {
 
 
 .workPage03 img{ float: right; margin-right: 30px;}
+
+
+
+
+
+.SVGiconBox{
+  width: 1846px;
+  height: 2085px;
+  margin-top: 24px;
+  margin-right: 24px;
+  border: 0.5px solid blue;
+}
