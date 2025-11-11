@@ -556,8 +556,8 @@ svg {
   width: 442px;
   height: 2078px;
   margin-right: 24px;
- 
-
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -566,6 +566,13 @@ svg {
   height: 590px;
   background-color: #E8E8E8;
   margin-bottom: 24px;
+  
+ 
+}
+
+.iconRoom img{
+  margin-left: 8%;
+  align-items: baseline;
 }
 
 
