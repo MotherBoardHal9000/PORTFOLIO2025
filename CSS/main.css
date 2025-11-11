@@ -191,7 +191,7 @@ svg {
   position: absolute;
   z-index: 10;
   left: 175px;
-  bottom: 100px;
+  bottom: 150px;
   transition: all 3s;
  }
 
@@ -203,6 +203,17 @@ svg {
   left: 345px;
   bottom: 50px;
   transition: all 3s;
+ }
+ 
+     .img07{
+  width: 280px;
+  aspect-ratio: 280px;
+  position: absolute;
+  z-index: 5;
+  left: 0px;
+  bottom: 0px;
+  transition: all 3s;
+  z-index: 4;
  }
 
  /*header*/
