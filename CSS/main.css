@@ -540,10 +540,60 @@ svg {
 
 
 
-.SVGiconBox{
+.SVGiconContainer{
   width: 1846px;
-  height: 2085px;
+  height: 2088px;
   margin-top: 24px;
   margin-right: 24px;
-  border: 0.5px solid blue;
+  /*border: 0.5px solid blue;*/
+  position: relative;
+  display: flex;
+  overflow-y: hidden;
+}
+
+
+.SVGiconBox1{
+  width: 442px;
+  height: 2078px;
+  margin-right: 24px;
+ 
+
+}
+
+
+.iconRoom{
+  width: 442px;
+  height: 590px;
+  background-color: #E8E8E8;
+  margin-bottom: 24px;
+}
+
+
+.iconRoomMini{
+  width: 442px;
+  height: 232px;
+  background-color: #E8E8E8;
+  margin-bottom: 24px;
+}
+
+
+.SVGiconBox2{
+  width: 442px;
+  height: 2078px;
+  margin-right: 24px;
+ 
+
+}
+
+.SVGiconBox3{
+  width: 442px;
+  height: 2078px;
+  margin-right: 24px;
+  
+}
+
+.SVGiconBox4{
+  width: 442px;
+  height: 2078px;
+ 
 }
