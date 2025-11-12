@@ -598,3 +598,22 @@ svg {
   height: 2078px;
  
 }
+
+.workPage04{
+   width:1837px;
+   height: 3942px;
+   margin-top: 264px;
+   position: relative;
+}
+
+#BIBXh2{
+   width: 346px;
+    font-size: 5.5rem;
+    font-weight: 600;
+    position: absolute;
+    left: -40px;
+    top: -210px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    padding-left: 40px;
+}
