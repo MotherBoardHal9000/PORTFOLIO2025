@@ -604,7 +604,8 @@ svg {
    height: 3942px;
    margin-top: 264px;
    position: relative;
-   border: 0.5px solid blue;
+   border-left: 1px solid blue;
+   border-right: 1px solid blue;
 }
 
 #BIBXh2{
@@ -624,4 +625,10 @@ svg {
   height: fit-content;
   display: flex;
   justify-content: space-between;
+}
+
+#mockUp001{
+  width: 100%;
+  aspect-ratio:1.82452/1;
+  margin-top: 40px;
 }
