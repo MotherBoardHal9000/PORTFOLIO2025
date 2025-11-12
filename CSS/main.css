@@ -556,8 +556,6 @@ svg {
   width: 442px;
   height: 2078px;
   margin-right: 24px;
-  display: flex;
-  flex-direction: column;
 }
 
 
@@ -570,10 +568,6 @@ svg {
  
 }
 
-.iconRoom img{
-  margin-left: 8%;
-  align-items: baseline;
-}
 
 
 .iconRoomMini{
