@@ -604,6 +604,7 @@ svg {
    height: 3942px;
    margin-top: 264px;
    position: relative;
+   border: 0.5px solid blue;
 }
 
 #BIBXh2{
@@ -616,4 +617,11 @@ svg {
     background-color: #f2f2f2;
     padding: 20px;
     padding-left: 40px;
+}
+
+.funSMSlogoBox{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
 }
