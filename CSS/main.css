@@ -626,6 +626,9 @@ svg {
   justify-content: space-between;
 }
 
+
+.funSMSlogoBox img{width: 50%; height: fit-content;}
+
 #mockUp001{
   width: 100%;
   aspect-ratio:1.82452/1;
