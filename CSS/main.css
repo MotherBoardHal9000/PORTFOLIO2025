@@ -369,7 +369,12 @@ svg {
     height: fit-content;
     position: relative;
     top: -480px;
-    left: 968px;
+    left: 975px;
+   }
+
+   
+   .introduceParagraph h2{
+    font-size: 5rem;
    }
 
 
@@ -377,8 +382,8 @@ svg {
     width: fit-content;
     height: fit-content;
     position: relative;
-    top: -580px;
-    left: 1328px;
+    top: -450px;
+    left: 980px;
       }
 
    .skillBox{
@@ -658,3 +663,9 @@ svg {
   margin-top: 40px;
 }
 
+/*footer*/
+.footer{
+  width: 100%;
+  height: 592px;
+  background-color: #7358EF;
+}
