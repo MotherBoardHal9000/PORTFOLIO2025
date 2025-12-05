@@ -638,6 +638,7 @@ svg {
   width: 100%;
   aspect-ratio:1.82452/1;
   margin-top: 42px;
+  object-fit: cover;
 }
 
 
