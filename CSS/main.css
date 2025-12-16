@@ -253,9 +253,7 @@ svg {
    /*바디*/
    .anotherBody{
     width: 1920px;
-    height: 15114px;
-    border-left: 1px solid red;
-    border-right:1px solid red;
+    height: 13300px;
     margin: 0 auto;
     margin-top: 1080px;
     position: relative;
@@ -609,7 +607,6 @@ svg {
    height: 3942px;
    margin-top: 264px;
    position: relative;
-   border-bottom: 1px solid blue;
 }
 
 #BIBXh2{
@@ -672,6 +669,31 @@ svg {
   justify-content: space-between;
 }
 
+
+   #strength{
+     width: 846px;
+    font-size: 5.5rem;
+    font-weight: 600;
+    position: absolute;
+    left: -40px;
+    bottom: -110px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    padding-left: 40px;
+   }
+
+
+.sketchBox{
+   width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 190px;
+}   
+
+#handDrawing003{
+  margin-top: 48px;
+}
 
 
 /*footer*/
