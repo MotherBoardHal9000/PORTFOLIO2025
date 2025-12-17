@@ -724,3 +724,6 @@ font-weight: 800;
   right: 100px;
   bottom: 0px;
 }
+
+.footerContents span{margin-right: 50px; }
+.footerContents span a{color: #ffffff;}
