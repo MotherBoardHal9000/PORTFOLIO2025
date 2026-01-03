@@ -463,7 +463,7 @@ canvas{
 
 .vectorWork{
   width: 100%;
-  height: 1332px;
+  height: 737px;
   position: relative;
    border-top: 3px solid #333333;
 }
@@ -524,6 +524,32 @@ canvas{
   padding-top: 180px;
   background-color: #ffffff;
 }
+
+
+
+
+.AIwork{
+  width: 100%;
+  height: 934px;
+  border-top: 3px solid #333333;
+}
+
+
+.AIworkBox{
+  width: 100%;
+  height: 785px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.AIworkBoxContents{
+    width: 49.2%;
+  height: 636px;
+  margin-top: 170px;
+  background-color: #ffffff;
+}
+
 
 
 /*footer*/
