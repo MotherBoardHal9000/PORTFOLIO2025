@@ -248,6 +248,7 @@ canvas{
     font-size: 8rem;
     font-weight: 700;
     margin-top: 24px;
+    
   }
 
 
@@ -292,6 +293,8 @@ canvas{
    font-size: 8rem;
     font-weight: 700;
     margin-top: 24px;
+    padding-left: 40px;
+      left: 0px;
     position: absolute;
     top: -90px;
     background-color: #f2f2f2;
@@ -364,6 +367,8 @@ canvas{
    font-size: 8rem;
     font-weight: 700;
     margin-top: 24px;
+    padding-left: 40px;
+      left: 0px;
     position: absolute;
     top: -90px;
     background-color: #f2f2f2;
@@ -403,15 +408,16 @@ canvas{
   padding-left: 40px;
   padding-right:40px;
   position: relative;
-  border: 1px solid red;
 }
 
 .BIBXwork h2{
      font-size: 8rem;
     font-weight: 700;
     margin-top: 24px;
+      padding-left: 40px;
+      left: 0px;
     position: absolute;
-    top: -90px;
+    top: -200px;
     background-color: #f2f2f2;
     padding-right: 40px;
 }
@@ -422,22 +428,44 @@ canvas{
 .BIBXworkBOX{
   width: 100%;
   height: 598px;
-  border: 1px solid red;
   margin-top: 115px;
   display: flex;
   justify-content: space-between;
 }
 
 
-.BIBXworkBOXcontents{
+.BIBXworkBOXcontents01{
   width: 595px;
   height: 595px;
   background-color: #ffffff;
   background-image: url(/IMG/main/funSMSremake001.png);
 }
 
-.BIBXworkBOXcontent:nth-child(1){
+
+.BIBXworkBOXcontents02{
+  width: 595px;
+  height: 595px;
+  background-color: #ffffff;
   background-image: url(/IMG/main/funSMSremake002.png);
+}
+
+
+
+.BIBXworkBOXcontents03{
+  width: 595px;
+  height: 595px;
+  background-color: #ffffff;
+  background-image: url(/IMG/main/funSMSremake003.png);
+}
+
+
+
+/*Vectorwork*/
+
+.vectorWork{
+  width: 100%;
+  height: 1332px;
+  border: 1px solid red;
 }
 
 
