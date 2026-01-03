@@ -465,7 +465,65 @@ canvas{
 .vectorWork{
   width: 100%;
   height: 1332px;
-  border: 1px solid red;
+  position: relative;
+   border-top: 3px solid #333333;
+}
+
+
+.vectorWork h2{
+      font-size: 8rem;
+    font-weight: 700;
+    margin-top: 24px;
+      padding-left: 40px;
+      left: 0px;
+    position: absolute;
+    top: -90px;
+    background-color: #f2f2f2;
+    padding-right: 40px;
+}
+
+
+.vectorWorkBOX{
+  width: 100%;
+  height:730px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 150px;
+}
+
+
+.vectorWorkBOXcontents01{
+  width: 440px;
+  height: 440px;
+  background-color: #ffffff;
+  padding: 40px;
+  padding-top: 120px;
+}
+
+.vectorWorkBOXcontents02{ 
+  width: 440px;
+  height: 440px;
+  background-color: #ffffff;
+ padding: 40px;
+ padding-top: 150px;
+}
+
+.vectorWorkBOXcontents03{
+  width: 440px;
+  height: 440px;
+  padding: 40px;
+  padding-top: 220px;
+  background-color: #ffffff;
+}
+.vectorWorkBOXcontents04{
+  width: 440px;
+  height: 440px;
+  padding: 40px;
+  padding-top: 180px;
+  background-color: #ffffff;
 }
 
 
