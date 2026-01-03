@@ -383,13 +383,16 @@ canvas{
 }
 
 .publishingWorkBox{
-  width: 49%;
+  width: 47%;
   height: 636px;
   margin-top: 170px;
  
 }
+
+
+
 .publishingWorkBox + .publishingWorkBox{
-    width: 49%;
+    width: 45.5%;
   height: 636px;
   margin-top: 170px;
  
