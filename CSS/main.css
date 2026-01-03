@@ -337,15 +337,13 @@ canvas{
   width: 49%;
   height: 636px;
   margin-top: 170px;
-  background-image: url(/IMG/main/nanoITremake.png);
-  background-size: cover;
+ 
 }
 .remakeWorkBox + .remakeWorkBox{
     width: 49%;
   height: 636px;
   margin-top: 170px;
-  background-image: url(/IMG/main/funSMSREmake.png);
-  background-size: cover;
+  
 }
 
 
@@ -388,15 +386,13 @@ canvas{
   width: 49%;
   height: 636px;
   margin-top: 170px;
-  background-image: url(/IMG/main/seoulUniversity.png);
-  background-size: cover;
+ 
 }
 .publishingWorkBox + .publishingWorkBox{
     width: 49%;
   height: 636px;
   margin-top: 170px;
-  background-image: url(/IMG/main/retroBoys.png);
-  background-size: cover;
+ 
 }
 
 /*BIBXwork*/
@@ -438,7 +434,7 @@ canvas{
   width: 595px;
   height: 595px;
   background-color: #ffffff;
-  background-image: url(/IMG/main/funSMSremake001.png);
+  
 }
 
 
@@ -446,7 +442,7 @@ canvas{
   width: 595px;
   height: 595px;
   background-color: #ffffff;
-  background-image: url(/IMG/main/funSMSremake002.png);
+ 
 }
 
 
@@ -455,7 +451,7 @@ canvas{
   width: 595px;
   height: 595px;
   background-color: #ffffff;
-  background-image: url(/IMG/main/funSMSremake003.png);
+ 
 }
 
 
