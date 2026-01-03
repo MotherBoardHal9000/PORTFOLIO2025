@@ -9,14 +9,6 @@
 
 
 
-path {
-  fill: none;
-  stroke-width: 5;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  
-}
-
 
 :root {
   /* App colors*/
@@ -77,22 +69,6 @@ canvas{
 
 
 
-svg {
-  position: absolute;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 100%;
-  width: 100%;
-  z-index: 9999;
-  opacity: 90%;
-  pointer-events: none;
-}
-
-
-
 
 /*PortfolioMain*/
 
@@ -115,17 +91,16 @@ svg {
   margin-top: 84px; } 
 
 .utill{
-    width: 774px;
+    width: 1294px;
     height: 100px;
     font-size: 9rem;
     font-weight: 800;
     color: #ffffff;
-
 }
 
 
 .utill ~ .utill{
-  width: 774px;
+  width: 1294px;
   height: 100px;
   font-size: 9rem;
   font-weight: 800;
@@ -257,443 +232,115 @@ svg {
     margin: 0 auto;
     margin-top: 1080px;
     position: relative;
+    border-left:1px solid red ;
    }
 
   .introPage{
     width:100%;
-    height: 1047px;
+    height: 952px;
     border-bottom: 3px solid #333333;
-    
    }
+
+
+  .introPage h2{
+    font-size: 8rem;
+    font-weight: 700;
+    margin-top: 24px;
+  }
+
+
+.profileBlock{
+  width: 500px;
+  height: 500px;
+  background-color: #ffffff;
+  margin-top: 100px;
+   box-shadow : 0 20px 0 0 #fd6413;
+}
+
+.profileBlock img{
+  width: 488px;
+  height: 700px;
+  position: relative;
+  top: -136px;
+  
+}
+
+
+
   .introducePage{
     width:100%;
     height: 947px;
     border-bottom: 3px solid #333333;
-    
-   }
+    }
 
 
-   .introh2Box{
-    width: fit-content;
-    height: fit-content;
+/*WebDesign&Publishing*/
+
+.WebDesignPublishing{
+  width: 100%;
+  height: 1092px;
+  position: relative;
+  border-bottom: 3px solid #333333;
+}
+
+.WebDesignPublishing h2{
+
+   font-size: 8rem;
+    font-weight: 700;
+    margin-top: 24px;
     position: absolute;
-    left: 42px;
-    top: 110px;
-   }
-
-   .introh2{
-     font-size: 9rem;
-     font-weight: 700;
-   }
+    top: -90px;
+    background-color: #f2f2f2;
+    padding-right: 40px;
+}
 
 
-#yellowObject{
+.WebDesignPublishing h3{
+  font-size: 3rem;
+  font-weight: 300;
   position: absolute;
-  left: 290px;
-  top: 370px;
-  animation: UpandDown 4s infinite;
-} 
+  width: 400px;
+  top: 75px;
+}
 
-
-.paranoise {
-  position: absolute;
+.WebDesignPublishing p {
   width: fit-content;
-  height: fit-content;
-  top: 100px;
-  right: 38px;
-}
-
-.blueSponge{
+  height: 100px;
   position: absolute;
-  top: 150px;
-  left: 480px;
-  z-index: 14;
-  animation: UpandDown 3s infinite;
+  bottom: 160px;
 }
 
-.whiteSponge{
-  position: relative;
-  left:-250px;
-  animation: UpandDown 5s infinite;
-}
-
-
-
-.redBoard{
-  position: absolute;
-  left: 360px;
-  bottom:94px;
-  z-index: 15;
-  animation: UpandDown 4s infinite;
-}
-
-
-   /*Introduce*/
-
-   #Introduce{
-    width: 320px;
-    font-size: 5.5rem;
-    font-weight: 600;
-    position: absolute;
-    left: 0px;
-    top: 980px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    padding-left: 40px;
-   
-
-   }
-
-   .profileBox{
-    width: 911px;
-    height: 570px;
-    background-color: #ffffff;
-    position: relative;
-    left: 48px;
-    bottom: -94px;
-    box-shadow: 0 20px 0 0 #7358EF;
-   }
-
-   .profileBox img{
-    position: absolute;
-    bottom: -68px;
-    left: 50%;
-    transform: translateX(-50%);
-   }
-
-
-   .introduceParagraph{
+.WebDesignPublishing p + p{
     width: fit-content;
-    height: fit-content;
-    position: relative;
-    top: -480px;
-    left: 975px;
-   }
-
-   
-   .introduceParagraph h2{
-    font-size: 5rem;
-   }
-
-
-  .introduceParagraph + .introduceParagraph{
-    width: fit-content;
-    height: fit-content;
-    position: relative;
-    top: -450px;
-    left: 980px;
-      }
-
-   .skillBox{
-    width: fit-content;
-    height: 55px;
-    position: relative;
-    right: -990px;
-    top: -320px; ;
-   }
-
-   .skillBox img{
-    margin: 8px;
-   }
-
-   /*workpage*/
-
-  .workPage{
-    width:100%;
-    height: 5068px;
-    border-bottom: 3px solid #333333 ;
-    padding-top: 80px;
-    padding-left: 40px ;
-   }
-
-
-   .workPage01{
-    width: 100%;
-    height: fit-content;
-   }
-
-   #workh2{
-     width: 722px;
-    font-size: 5.5rem;
-    font-weight: 600;
-    position: absolute;
-    left: 0px;
-    top: 1928px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    padding-left: 40px;
-   }
-
-
- #nanoITMobile{
-    float: right;
-    margin-right: 32px;
-    
-   }
-
-.workPage02{
-    width:1877px;
-    height: fit-content;
-    margin: 0 auto;
-    margin-top: 78px;
-    position: relative;
-   }
-
-  #pencil{
-    position: absolute;
-    left: 60px;
-    top: 510px;
-    z-index: 10;
-  }
-  #funSMSdesktop{
-    margin-left: 398px;
-    width: 744px;
-  }
-  #funSMSmobile{
-    position: absolute;
-    left: -10px;
-  }
-
-  #funSMS3Dobject{
-    position: absolute;
-    right: 600px;
-    bottom: -90px;
-  }
-.workPage02explain{
-  width: 472px;
-  height: 900px;
-  float: right;
-}
-
-
-.workPage02explain h3{
-  font-size: 5rem;
-  font-weight: 400;
-  text-align: right;
-  line-height: 72px;
-  padding-right: 20px;
-  padding-top: 0px;
-}
-
-
-.workPage02explain p{
- text-align: justify;
-  padding: 28px;
-  margin-left: 20px;
-}
-
-.workPage02explain button{
-  width: 120px;
-  padding: 20px;
-  background-color: #333333;
-  color: #ffffff;
+  height: 100px;
   position: absolute;
-  bottom: 0px;
-  right: 30px;
+  bottom: 160px;
+  right: 530px;
 }
 
 
-
-.workPage03{
-    width:1877px;
-    height: 736px;
-    margin: 0 auto;
-    margin-top: 78px;
-    position: relative;
-   }
-.workPage03explain{
-  width: 472px;
-  height: 900px;
-  float: left;
-}
-
-.workPage03explain h3{
-  font-size: 5rem;
-  font-weight: 400;
-  text-align: left;
-  line-height: 72px;
-  padding-right: 20px;
-  padding-top: 0px;
-}
-
-.workPage03explain p{
- text-align: justify;
-  margin-right: 20px;
-  margin-top: 20px;
-}
-
-.workPage03explain button{
-  width: 120px;
-  padding: 20px;
-  background-color: #333333;
-  color: #ffffff;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-}
-
-
-
-
-
-
-.workPage03 img{ float: right; margin-right: 30px;}
-
-
-
-
-
-.SVGiconContainer{
-  width: 1846px;
-  height: 2088px;
-  margin-top: 24px;
-  margin-right: 24px;
-  /*border: 0.5px solid blue;*/
-  position: relative;
-  display: flex;
-  overflow-y: hidden;
-}
-
-
-.SVGiconBox1{
-  width: 442px;
-  height: 2078px;
-  margin-right: 24px;
-}
-
-
-.iconRoom{
-  width: 442px;
-  height: 590px;
-  background-color: #E8E8E8;
-  margin-bottom: 24px;
-  
- 
-}
-
-
-
-.iconRoomMini{
-  width: 442px;
-  height: 232px;
-  background-color: #E8E8E8;
-  margin-bottom: 24px;
-}
-
-
-.SVGiconBox2{
-  width: 442px;
-  height: 2078px;
-  margin-right: 24px;
- 
-
-}
-
-.SVGiconBox3{
-  width: 442px;
-  height: 2078px;
-  margin-right: 24px;
-  
-}
-
-.SVGiconBox4{
-  width: 442px;
-  height: 2078px;
- 
-}
-
-.workPage04{
-   width:1837px;
-   height: 3942px;
-   margin-top: 264px;
-   position: relative;
-}
-
-#BIBXh2{
-   width: 346px;
-    font-size: 5.5rem;
-    font-weight: 600;
-    position: absolute;
-    left: -40px;
-    top: -210px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    padding-left: 40px;
-}
-
-.funSMSlogoBox{
+.remakeWork{
   width: 100%;
-  height: fit-content;
+  height: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-
-.funSMSlogoBox img{width: 48.9%; height: fit-content;}
-
-#mockUp001{
-  width: 100%;
-  aspect-ratio:1.82452/1;
-  margin-top: 42px;
-  object-fit: cover;
+.remakeWorkBox{
+  width: 49%;
+  height: 636px;
+  margin-top: 170px;
+  background-image: url(/IMG/main/nanoITremake.png);
+  background-size: cover;
+}
+.remakeWorkBox + .remakeWorkBox{
+    width: 49%;
+  height: 636px;
+  margin-top: 170px;
+  background-image: url(/IMG/main/funSMSREmake.png);
+  background-size: cover;
 }
 
-
-#mockUp002{
-  width: 664px;
-  aspect-ratio: 1.33333/1;
-  margin-right: 38px;
-}
-
-#mockUp003{
-  width: 1129px;
-  aspect-ratio: 2.262525/1;
-}
-
-
-.workPage04 p{ padding: 20px; padding-left: 0px;}
-
-.brandingBox{
-  width: 100%;
-  height: 1050px;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 40px;
-}
-
-.icon3dBox{
-  width: 100%;
-  height: 592px;
-  padding-top: 40px;
-  display: flex;
-  justify-content: space-between;
-}
-
-
-   #strength{
-     width: 846px;
-    font-size: 5.5rem;
-    font-weight: 600;
-    position: absolute;
-    left: -40px;
-    bottom: -110px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    padding-left: 40px;
-   }
-
-
-.sketchBox{
-   width: 100%;
-  height: fit-content;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 190px;
-}   
-
-#handDrawing003{
-  margin-top: 48px;
-}
 
 
 /*footer*/
@@ -727,3 +374,8 @@ font-weight: 800;
 
 .footerContents span{margin-right: 50px; }
 .footerContents span a{color: #ffffff;}
+
+
+@media only screen and (max-width: 767px) {
+
+}
