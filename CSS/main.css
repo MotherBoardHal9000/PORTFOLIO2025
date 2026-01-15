@@ -704,7 +704,7 @@ body{
   top: -27px;
     transition: all 3s;
  }
- .img02 img{width: 200px; }
+ .img02 img{width: 200px; height: 110px;}
  
   .img03{
   position: absolute;
@@ -1190,3 +1190,577 @@ font-weight: 800;
 .footerContents span a{color: #ffffff;}
 
 }
+
+@media (min-width: 768px) and (max-width: 1200px){
+  body{
+
+   -ms-overflow-style: none;
+   overflow-x: hidden;}
+
+
+  canvas{
+    width: 100vw;
+    height: 685px;
+  }
+
+
+  .section01{
+    width: 100vw;
+    height: 685px;
+    z-index: 10;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-left: 50px;
+ 
+
+}
+
+
+.section01 p{
+  color: white;
+  font-weight: 500;
+  margin-top: 24px; 
+  position: absolute;
+  left: 24px;} 
+
+.utill{
+    width: 265px;
+    height: 100px;
+    font-size: 4rem;
+    font-weight: 800;
+    color: #ffffff;
+    position: absolute;
+    top: 48px;
+    left: 24px;
+}
+
+
+.utill ~ .utill{
+  width: 265px;
+  height: 100px;
+  font-size: 4rem;
+  font-weight: 800;
+  color: #ffffff;
+  top: 175px;
+}
+
+
+
+ .img00{
+   position: absolute;
+  z-index: 11;
+  right: -62%;
+  transform: translateX(6%);
+  top: 40%;
+  transition: all 1s;
+ }
+
+ .img00 img{width: 400px; aspect-ratio: 1/1;}
+
+
+  .img01{
+  width: 15px;
+  aspect-ratio: 1/1;
+  position: absolute;
+  z-index: 10;
+  right: 30%;
+  top: 17%;
+    transition: all 1s;
+ }
+
+  .img01 img{
+    width: 140px;
+    height: 140px;
+  }
+
+
+
+  .img02{
+  width: 75px;
+  height:75px;
+  position: absolute;
+  z-index: 10;
+  right: 145px;
+  top: -27px;
+    transition: all 3s;
+ }
+ .img02 img{width: 240px; height: 120px;}
+ 
+  .img03{
+  position: absolute;
+  z-index: 10;
+  right: -2%;
+  bottom: -24%;
+  transition: all 3s;
+ }
+
+
+ .img03 img{width: 240px; height: 200px;}
+
+
+
+   .img04{
+  width: 228px;
+  aspect-ratio: 200px;
+  position: absolute;
+  z-index: 10;
+  right: -12%;
+  bottom: -24%;
+  transition: all 3s;
+ }
+    .img05{
+display: none;
+ }
+
+     .img06{
+  width: 314px;
+  aspect-ratio: 314px;
+  position: absolute;
+  z-index: 5;
+  left: 345px;
+  bottom: 50px;
+  transition: all 3s;
+ }
+ 
+     .img07{
+display: none;
+ }
+
+ /*header*/
+ .header{
+  width: 100vw;
+  height: 84px;
+  border-bottom: 2px solid #333333;
+  background-color: #ffffff;
+  position: relative;
+  top: 855px;
+ }
+
+ .headerContents{
+  width: 100vw;
+  height: 100%;
+  
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding:26px;
+ }
+
+  .headerContents h3{
+    font-weight: 700;
+
+  }
+
+   .headerContents img{
+    width: 114px;
+    height: 54px;
+    position: absolute;
+    top: -38px;
+    left: 30%;
+    transform: translateX(-30%);
+    z-index: 10;
+   }
+
+
+   /*바디*/
+   .anotherBody{
+    width: 100vw;
+    height: fit-content;
+    margin: 0 auto;
+    margin-top: 855px;/*항시 체크 매우 중요*/
+    position: relative;
+    border-left:none ;
+   }
+
+  .introPage{
+    width:90vw;
+    height: 565px;
+    border-bottom: none;
+    padding-left: 5%;
+   }
+
+
+  .introPage h2{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 24px;
+    
+  }
+
+
+.profileBlock{
+  width: 90vw;
+  height: 284px;
+  background-color: #ffffff;
+  margin-top: 40px;
+
+   box-shadow : 0 20px 0 0 #fd6413;
+}
+
+.profileBlock img{
+  width: 244px;
+  height: 376px;
+  position: relative;
+  top: -56px;
+  left: 20%;
+
+  
+}
+
+
+
+  .introducePage{
+    width:100vw;
+    height: 565px;
+  
+    }
+
+
+/*WebDesign&Publishing*/
+
+.WebDesignPublishing{
+  width: 100%;
+  height: 1778px;
+  position: relative;
+  padding-left: 5%;
+  padding-right:0px;
+}
+
+.WebDesignPublishing h2{
+
+   font-size: 3rem;
+    font-weight: 700;
+    margin-top: 24px;
+    padding-left: 0px;
+      left: 5%;
+    position: absolute;
+    top: -90px;
+    background-color: #f2f2f2;
+
+}
+
+
+.WebDesignPublishing h3{
+  font-size: 3rem;
+  font-weight: 300;
+  position: absolute;
+  width: 400px;
+  top: 75px;
+}
+
+.WebDesignPublishing p {
+  width: fit-content;
+  height: 100px;
+  position: absolute;
+  bottom: 160px;
+}
+
+.WebDesignPublishing p + p{
+    width: fit-content;
+  height: 100px;
+  position: absolute;
+  bottom: 160px;
+  right: 530px;
+}
+
+
+.remakeWork{
+  width: 90vw;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.remakeWorkBox{
+  width: 90vw;
+  height: 1000px;
+  margin-top: 170px;
+ 
+}
+
+.remakeWorkBox img{
+  width: 90vw;
+  height: 335px;
+}
+
+
+.remakeWorkBox + .remakeWorkBox{
+    width: 90vw;
+  height: 1000px;
+  margin-top: 170px;
+  
+}
+
+
+
+
+/*PublishingPracticeClone Works*/
+
+
+.PublishingPracticeCloneWorks{
+  width: 100%;
+  height: 2076px;
+  padding-left: 5%;
+  padding-right:0px;
+  border-bottom: 3px solid #333333;
+  position: relative;
+}
+
+.PublishingPracticeCloneWorks h2{
+   font-size: 3rem;
+    font-weight: 700;
+    margin-top: 24px;
+
+      left: 0px;
+    position: absolute;
+    top: -90px;
+    background-color: #f2f2f2;
+    padding-right: 40px;
+}
+
+
+
+.publishingWork{
+  width: 90vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+    padding-left: 0px;
+  padding-right:0px;
+}
+
+.publishingWorkBox{
+  width: 90vw;
+  height: 636px;
+  margin-top: 170px;
+ 
+}
+
+.publishingWorkBox img{
+  width: 90vw;
+  height: 375px;
+}
+
+.publishingWorkBox + .publishingWorkBox{
+  width: 90vw;
+  height: 636px;
+  margin-top: 170px;
+ 
+}
+
+/*BIBXwork*/
+
+
+.BIBXwork{
+  width: 100%;
+  height: 843px;
+padding-left: 5%;
+  position: relative;
+}
+
+.BIBXwork h2{
+     font-size: 4rem;
+    font-weight: 700;
+    margin-top: 24px;
+      padding-left: 40px;
+      left: 0px;
+    position: absolute;
+    top: -200px;
+    background-color: #f2f2f2;
+    padding-right: 40px;
+}
+
+
+
+
+.BIBXworkBOX{
+  width: 100%;
+  height: 898px;
+  margin-top: 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.BIBXworkBOX img {
+  width: 375px; height: 375px;
+}
+
+
+
+.BIBXworkBOXcontents01{
+  width: 375px;
+  height: 375px;
+  background-color: #ffffff;
+  
+}
+
+
+.BIBXworkBOXcontents02{
+  width: 375px;
+  height: 375px;
+  background-color: #ffffff;
+ 
+}
+
+
+
+.BIBXworkBOXcontents03{
+  width: 375px;
+  height: 375px;
+  background-color: #ffffff;
+ 
+}
+
+
+
+/*Vectorwork*/
+
+.vectorWork{
+  width: 100%;
+  height: 1737px;
+  position: relative;
+   border-top: none;
+}
+
+
+.vectorWork h2{
+      font-size: 4rem;
+    font-weight: 700;
+    margin-top: 24px;
+      padding-left: 40px;
+      left: 0px;
+    position: absolute;
+    top: -90px;
+    background-color: #f2f2f2;
+    padding-right: 40px;
+}
+
+
+.vectorWorkBOX{
+  width: 90vw;
+  height:1730px;
+  padding-left: 5%;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding-top: 150px;
+}
+
+
+
+
+.vectorWorkBOXcontents01{
+  width: 90vw;
+  height: 320px;
+  background-color: #ffffff;
+  padding: 5%;
+  padding-top: 120px;
+}
+
+
+
+.vectorWorkBOXcontents02{ 
+  width: 90vw;
+  height: 320px;
+  background-color: #ffffff;
+ padding: 40px;
+ padding-top: 150px;
+}
+
+.vectorWorkBOXcontents03{
+  width: 90vw;
+  height: 320px;
+  padding: 40px;
+  padding-top: 220px;
+  background-color: #ffffff;
+}
+.vectorWorkBOXcontents04{
+  width: 90vw;
+  height: 320px;
+  padding: 40px;
+  padding-top: 180px;
+  background-color: #ffffff;
+}
+
+
+
+
+.AIwork{
+  width: 100%;
+  height: 1934px;
+
+  position: relative;
+}
+.AIwork img{width: 70vw;
+  height: 245px;}
+
+.AIwork h2{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 24px;
+      padding-left: 40px;
+      left: 0px;
+    position: absolute;
+    top: -90px;
+    background-color: #f2f2f2;
+    padding-right: 40px;
+}
+
+.AIworkBox{
+  width: 100%;
+  height: 1185px;
+  display: flex;
+   flex-direction: column;
+  padding-left: 5%;
+  padding-right: 0px;
+
+}
+
+.AIworkBoxContents{
+    width: 90vw;
+  height: 1036px;
+  margin-top: 170px;
+  background-color: #ffffff;
+  padding: 60px;
+}
+
+
+
+/*footer*/
+.footer{
+  width: 100vw;
+  height: 592px;
+  color: #ffffff;
+  background-color: #7358EF;
+}
+
+.footerContents{
+  width: 100vw;
+  height: 100%;
+  padding-top: 100px;
+  padding-left: 50px;
+  margin: 0 auto;
+  position: relative;
+}
+.footerContents h2{
+font-size: 3rem;
+font-weight: 800;
+}
+
+
+.footerContents img{
+  position:absolute;
+  width: 500px;
+  right: 100px;
+  bottom: 0px;
+}
+
+.footerContents span{margin-right: 50px; font-size: 1.2rem; display: block; }
+.footerContents span a{color: #ffffff;}
+
+}
+
+
